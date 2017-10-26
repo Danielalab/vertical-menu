@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif; 
+}
+
+section {
+    background-color: #f7f7f9; 
+    width: 20%;
+    margin: 20px;
+    float: left;
+}
+
+section h3{
+    margin: 10px; 
+}
+
+section nav ul{
+    list-style: none;
+}
+
+section nav ul a{
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #000000;
+}    
+
+section nav ul a:hover{
+    background-color:#b4b4ff; 
+}
+    
+section nav ul a:active{
+    background-color: #ffa500;
+}    
